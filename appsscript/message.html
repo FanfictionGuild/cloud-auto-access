@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base target="_top">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;800&amp;display=swap" rel="stylesheet">
+        <style>
+			html,
+			body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				color: #ffffff;
+				background-color: #36393f;
+				font-family: 'Roboto', sans-serif;
+			}
+
+			.hor-container {
+				display: flex;
+				flex-direction: row;
+				width: 100%;
+				height: 100%;
+				align-items: center;
+				justify-content: center;
+				filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.1));
+			}
+        </style>
+    </head>
+    <body>
+        <div class="hor-container">
+            <div><?= message ?></div>
+        </div>
+    </body>
+</html>
